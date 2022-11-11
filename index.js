@@ -1,17 +1,6 @@
-// let listItmbyclass=document.getElementsByClassName('list-group-item');
-
-// for(let i=0;i<listItmbyclass.length;i++){
-//     listItmbyclass[i].style.fontWeight='bold';
-//     listItmbyclass[i].style.color='white';
-//     listItmbyclass[i].style.backgroundColor='black';
-// }
+let items = document.querySelectorAll('.list-group-item');
+items[1].style.backgroundColor='green';
+items[2].style.display='none';
 
 
-
-let listItmbyclass=document.getElementsByTagName('li');
-
-for(let i=0;i<listItmbyclass.length;i++){
-    listItmbyclass[i].style.fontWeight='bold';
-    listItmbyclass[i].style.color='white';
-    listItmbyclass[i].style.backgroundColor='black';
-}
+console.log(items);
